@@ -9,10 +9,13 @@ import "./index.css";
 import { personOrders } from "../../../utils/personOrder";
 import DefaultTable from "../DefaultTable/DefaultTable";
 import { getTotalOrderPrice } from "../../../utils/utils";
+import { CheckRounded, CloseRounded } from "@mui/icons-material";
+import { Chip } from "@mui/material";
 
 type TypeTableBill = {
   discountEach: number;
 };
+
 const TableBill = ({ discountEach }: TypeTableBill) => {
   const columnHelperBill = createColumnHelper<DataBill>();
 
@@ -49,13 +52,19 @@ const TableBill = ({ discountEach }: TypeTableBill) => {
       cell: (e) => {
         const label = e.getValue() ? (
           <div className="status-pay">
-            <img src="src/assets/icons/checked.png" className="image-icon" />
-            <span style={{ padding: 0, margin: 0 }}>Payed</span>
+            <Chip
+              icon={<CheckRounded color="success" />}
+              label="Payed"
+              style={{ fontWeight: 700 }}
+            />
           </div>
         ) : (
           <div className="status-pay">
-            <img src="src/assets/icons/closed.png" className="image-icon" />
-            <span style={{ padding: 0, margin: 0 }}>Unpayed</span>
+            <Chip
+              icon={<CloseRounded color="error" />}
+              label="Unpayed"
+              style={{ fontWeight: 700 }}
+            />
           </div>
         );
         return label;
