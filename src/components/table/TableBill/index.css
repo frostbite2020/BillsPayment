@@ -1,0 +1,13 @@
+.table-header {
+    border: 1px solid rgba(0, 0, 0, 0.33)
+}
+
+.status-pay {
+    align-items: center;
+    display: flex;
+}
+
+.image-icon {
+    width: 24px;
+    margin-right: 4px;
+}
