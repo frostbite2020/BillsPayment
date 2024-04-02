@@ -5,19 +5,19 @@ export const personOrders: DataBill[] = [
     no: 1,
     name: 'Rafi',
     menu: ['Nasi Liwet', 'Puding'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 2,
     name: 'Biyanka',
     menu: ['Nasi Liwet', 'Puding', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 3,
     name: 'Fahmi',
     menu: ['Nasi Liwet', 'Puding', 'Air Mineral', 'Teh Manis Hangat'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 4,
@@ -29,7 +29,7 @@ export const personOrders: DataBill[] = [
     no: 5,
     name: 'Kiky',
     menu: ['Nasi Liwet', 'Puding', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 6,
@@ -41,7 +41,7 @@ export const personOrders: DataBill[] = [
     no: 7,
     name: 'Jonathan',
     menu: ['Nasi Liwet', 'Salad Buah', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   { no: 8, name: 'Dirman', menu: ['Nasi Liwet'], statusPay: false },
   {
@@ -54,7 +54,7 @@ export const personOrders: DataBill[] = [
     no: 10,
     name: 'Daniel',
     menu: ['Nasi Liwet', 'Puding', 'Virgin Mojito Blueberry Lychee'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 11,
@@ -67,13 +67,13 @@ export const personOrders: DataBill[] = [
       'Silky Puding',
       'Risol Smoke Beef'
     ],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 12,
     name: 'Irfan Nurhakim',
     menu: ['Nasi', 'Fuyunghai Chicken'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 13,
@@ -85,37 +85,37 @@ export const personOrders: DataBill[] = [
     no: 14,
     name: 'Annas',
     menu: ['Salad Buah', 'Klapertart', 'Pisang Goreng Karamel', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 15,
     name: 'Ilman',
     menu: ['Nasi Goreng Kepiting', 'Teh Tawar Panas'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 16,
     name: 'Ulvia',
     menu: ['Nasi Ayam Bakar Madu', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 17,
     name: 'Nadia',
     menu: ['Nasi Ayam Bakar Madu', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 18,
     name: 'Osy',
     menu: ['Nasi Ayam Bakar', 'Air Mineral', 'Salad Buah'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 19,
     name: 'Dian',
     menu: ['Nasi Ayam Goreng Asam Manis', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 20,
@@ -133,13 +133,13 @@ export const personOrders: DataBill[] = [
     no: 22,
     name: 'Aldo',
     menu: ['Nasi', 'Fuyunghai Seafood', 'Air Mineral', 'Salad Buah'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 23,
     name: 'Dwi Sana',
     menu: ['Nasi Ayam Goreng Lada Hitam', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 24,
@@ -157,6 +157,6 @@ export const personOrders: DataBill[] = [
     no: 26,
     name: 'Chandra',
     menu: ['Nasi', 'Fuyunghai Seafood', 'Air Mineral', 'Soes Vanilla'],
-    statusPay: false
+    statusPay: true
   }
 ]

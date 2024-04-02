@@ -55,7 +55,7 @@ const TableBill = ({ discountEach }: TypeTableBill) => {
             <Chip
               icon={<CheckRounded color="success" />}
               label="Payed"
-              style={{ fontWeight: 700 }}
+              style={{ fontWeight: 700, width: 110 }}
             />
           </div>
         ) : (
@@ -63,7 +63,7 @@ const TableBill = ({ discountEach }: TypeTableBill) => {
             <Chip
               icon={<CloseRounded color="error" />}
               label="Unpayed"
-              style={{ fontWeight: 700 }}
+              style={{ fontWeight: 700, width: 110 }}
             />
           </div>
         );
