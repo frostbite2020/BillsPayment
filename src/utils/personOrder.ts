@@ -23,7 +23,7 @@ export const personOrders: DataBill[] = [
     no: 4,
     name: 'Kevin',
     menu: ['Nasi Liwet', 'Puding', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 5,
@@ -35,7 +35,7 @@ export const personOrders: DataBill[] = [
     no: 6,
     name: 'Chris',
     menu: ['Nasi Liwet', 'Salad Buah', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 7,
@@ -79,7 +79,7 @@ export const personOrders: DataBill[] = [
     no: 13,
     name: 'Apriza',
     menu: ['Nasi', 'Lamb Chop', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 14,
@@ -121,13 +121,13 @@ export const personOrders: DataBill[] = [
     no: 20,
     name: 'Irfan Fathoni',
     menu: ['Nasi', 'Tuna Goreng Tepung', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 21,
     name: 'Anbiya',
     menu: ['Nasi', 'Kerang Bambu Rebus Saus Tiram'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 22,
@@ -145,13 +145,13 @@ export const personOrders: DataBill[] = [
     no: 24,
     name: 'Riyan',
     menu: ['Nasi', 'Koloke Ayam', 'Air Mineral', 'Salad Buah'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 25,
     name: 'Freddy',
     menu: ['Nasi', 'Chicken Grilled', 'Air Mineral'],
-    statusPay: false
+    statusPay: true
   },
   {
     no: 26,
